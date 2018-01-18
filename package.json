@@ -6,7 +6,7 @@
     "puppeteer": "^1.0.0"
   },
   "name": "coinmarketcap-info-cli",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Command-line interface to fetch infos from coinmarketcap.com",
   "main": "index.js",
   "devDependencies": {},
@@ -31,5 +31,8 @@
   "bugs": {
     "url": "https://github.com/roNn23/coinmarketcap-info-cli/issues"
   },
-  "homepage": "https://github.com/roNn23/coinmarketcap-info-cli#readme"
+  "homepage": "https://github.com/roNn23/coinmarketcap-info-cli#readme",
+  "bin": {
+    "cmc-info": "index.js"
+  }
 }
