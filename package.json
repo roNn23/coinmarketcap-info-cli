@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "cli-table2": "^0.2.0",
+    "ora": "^1.3.0",
+    "puppeteer": "^1.0.0"
+  },
+  "name": "coinmarketcap-info-cli",
+  "version": "0.0.1",
+  "description": "Command-line interface to fetch infos from coinmarketcap.com",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roNn23/coinmarketcap-info-cli.git"
+  },
+  "keywords": [
+    "coinmarketcap",
+    "cryptocurrency",
+    "bitcoin",
+    "ether",
+    "crypto",
+    "dash",
+    "litecoin"
+  ],
+  "author": "Ronny Neefe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roNn23/coinmarketcap-info-cli/issues"
+  },
+  "homepage": "https://github.com/roNn23/coinmarketcap-info-cli#readme"
+}
