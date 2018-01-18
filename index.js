@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 const puppeteer = require('puppeteer');
 const Table = require('cli-table2');
 const ora = require('ora');
