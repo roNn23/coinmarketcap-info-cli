@@ -30,14 +30,14 @@ const spinner = ora('Loading data').start();
       let currencySymbol = tableRows[i].querySelector('.currency-name .currency-symbol')
       let currencyName = tableRows[i].querySelector('.currency-name .currency-name-container')
       let currencyPrice = tableRows[i].querySelector('.price')
-      let currencyPercent24h = tableRows[i].querySelector('.percent-24h')
+      let currencyPercent24h = tableRows[i].querySelector('[data-timespan="24h"]')
       if (currencyPercent24h) {
         data.push({
           'sorting': currencySorting.textContent.trim(),
           'symbol': currencySymbol.textContent,
           'name': currencyName.textContent,
           'price': currencyPrice.textContent,
-          'percent24h': currencyPercent24h.getAttribute('data-usd')
+          'percent24h': parseFloat(currencyPercent24h.getAttribute('data-percentusd')).toFixed(2)
         })
       }
     }
