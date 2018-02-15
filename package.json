@@ -6,7 +6,7 @@
     "puppeteer": "^1.0.0"
   },
   "name": "coinmarketcap-info-cli",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Command-line interface to fetch infos from coinmarketcap.com",
   "main": "index.js",
   "devDependencies": {
