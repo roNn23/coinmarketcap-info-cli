@@ -2,6 +2,7 @@
   "dependencies": {
     "chalk": "^2.3.0",
     "cli-table2": "^0.2.0",
+    "fetchbot": "^1.2.1-alpha",
     "ora": "^1.3.0",
     "puppeteer": "^1.0.0"
   },
