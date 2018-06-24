@@ -1,7 +1,7 @@
 #! /usr/bin/env node
 
 const puppeteer = require('puppeteer')
-const Table = require('cli-table2')
+const Table = require('cli-table3')
 const ora = require('ora')
 const chalk = require('chalk')
 
